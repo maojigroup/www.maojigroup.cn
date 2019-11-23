@@ -6,6 +6,18 @@
   </ul>
   <div class="main">
     <h1><%- page.title %></h1>
-    <%- page.content %> 
+    <style>
+      .product p {
+        margin: 0 -15px;
+      }
+      .product p img {
+        max-width: 100%;
+      }
+    </style>
+    <div class="container-fluid margin-bottom-40 product">
+      <div class="col-md-12">
+       <%- page.content %>
+      </div>
+    </div>
   </div>
 </div>
