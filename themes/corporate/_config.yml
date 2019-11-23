@@ -1,0 +1,43 @@
+# Header Menu
+menu:
+  首页: /
+  关于我们: /about/
+  产品: /products/
+  联系方式: /contact/
+   
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true # whether or not to load the fancybox library
+
+# Integrations
+disqus_shortname: 
+google_analytics:
+swiftype_install_key: 
+
+# Social
+social:
+  # github: https://github.com/ptsteadman
+  # twitter: https://twitter.com/ptsteadman
+  # facebook: https://www.facebook.com/ptsteadman
+  # rss: atom.xml
+  # linkedin: https://linkedin.com/in/ptsteadman
+  # stackoverflow: http://stackoverflow.com/users/2480493/patrick-steadman
+
+# Miscellaneous
+color_scheme: green   # options: blue, gray, green, orange, red, turquoise
+# favicon: /favicon.ico # path from root of hexo site
+# twitter_widget_id: "678830341331820544" # as a string, from https://twitter.com/settings/widgets
+# twitter_username: computerlab_ # twitter username without the @
+default_author: Anonymous
+
+about: 贸基集团（香港）是一家专业从事进出口贸易的大型香港企业。主要涉及饲料原料，饲料添加剂，化工，五金机械，汽配机械等等。<br>宁波贸基进出口有限公司是贸基集团（香港）在宁波成立的专业从事饲料原料进口以及饲料原料国内渠道开发和管理的公司。
+# phone: 716-472-4484
+email: office@maojigroup.com
+address_1: 堇山大厦415室
+address_2: 长寿南路555号
+address_3: 中国浙江省宁波市鄞州区
+# skype: ptsteadman
+# lat: 40.715911 
+# long: -73.962147

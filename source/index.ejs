@@ -1,0 +1,33 @@
+---
+layout: index
+---
+<!-- BEGIN CAROUSEL -->
+<div class="container-fluid margin-bottom-40">
+	<div class="col-md-12 front-carousel">
+		<div id="myCarousel" class="carousel slide">
+			<!-- Carousel items -->
+			<div class="carousel-inner">
+				<% for (let i = 1; i < 4; i++) { %>
+				<div class="item<%- i === 1 ? ' active' : '' %>">
+					<img src='/assets/slider/slider_0<%- i %>.jpg' style="margin:0 auto;">
+				</div>
+				<% } %>
+			</div>
+			<!-- Carousel nav -->
+			<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+				<i class="fa fa-angle-left"></i>
+			</a>
+			<a class="carousel-control right" href="#myCarousel" data-slide="next">
+				<i class="fa fa-angle-right"></i>
+			</a>
+		</div>
+	</div>
+</div>
+<!-- END CAROUSEL -->
+
+<div class="container margin-bottom-40">
+	<div class="col-md-12">
+		<p>贸基进出口有限公司专业从事国外优质饲料原料进口。我们专注于从世界各地寻找优质的饲料原料，从而为国内饲料市场提供价廉物美的饲料原料产品，为中国畜牧食品行业做好第一道原料关。</p>
+		<p>本公司产品覆盖进口鸡肉粉，肉骨粉，鱼粉，苜宿草，甜菜粕等。 并在全国南北主要港口都有发货和备货，为全国各地的客户提供最优质，价廉的饲料原料产品，和提供最便捷快速的物流服务。</p>
+	</div>
+</div>
